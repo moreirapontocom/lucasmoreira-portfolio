@@ -1,0 +1,18 @@
+@import "variables.scss";
+
+header {
+    font-family: $font-serif;
+    padding-top: 100px;
+    padding-bottom: 70px;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        color: $color-primary;
+        font-weight: bold;
+    }
+}

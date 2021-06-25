@@ -1,0 +1,9 @@
+.about {
+    margin-bottom: 70px;
+
+    .btn {
+        &:first-child {
+            margin-right: 7px;
+        }
+    }
+}

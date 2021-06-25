@@ -1,0 +1,73 @@
+@import "variables.scss";
+
+@mixin button-base {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn {
+    @include button-base;
+
+    &.btn-primary {
+        background-color: black;
+        border-color: black;
+
+        &:hover,
+        &:focus,
+        &:active {
+            @include button-base;
+
+            background-color: $color-primary !important;
+            border-color: $color-primary !important;
+            color: white !important;
+        }
+    }
+
+    &.btn-outline-primary {
+        color: $color-primary;
+        border-color: $color-primary;
+
+        &:hover,
+        &:focus,
+        &:active {
+            @include button-base;
+
+            color: white !important;
+            border-color: $color-primary !important;
+            background-color: $color-primary !important;
+        }
+    }
+
+    &.btn-secondary {
+        color: white !important;
+        border-color: black;
+        background-color: black;
+
+        &:hover,
+        &:focus,
+        &:active {
+            @include button-base;
+
+            color: white !important;
+            border-color: $color-primary !important;
+            background-color: $color-primary !important;
+        }
+    }
+
+    &.btn-outline-secondary {
+        color: black;
+        border-color: black;
+
+        &:hover,
+        &:focus,
+        &:active {
+            @include button-base;
+
+            color: white !important;
+            border-color: black !important;
+            background-color: black !important;
+        }
+    }
+}

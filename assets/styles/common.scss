@@ -1,0 +1,55 @@
+@import "variables.scss";
+
+body {
+    font-size: 16px;
+    font-family: $font-sans-serif;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    font-family: $font-serif;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+h4 {
+    color: $color-primary;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.separator {
+    background-color: $color-primary;
+    display: inline-block;
+
+    &.landscape {
+        width: 150px;
+        height: 2px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+
+.text-primary {
+    color: $color-primary !important;
+}
+
+.bg-primary {
+    color: white;
+    background-color: $color-primary !important;
+}
