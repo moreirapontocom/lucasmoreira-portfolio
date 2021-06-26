@@ -41,8 +41,14 @@ h4 {
 }
 
 .description {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $font-serif;
     font-size: 1.1rem;
+
+    h1,
+    h2,
+    h3 {
+        font-family: $font-sans-serif;
+    }
 }
 
 .text-primary {

@@ -15,4 +15,17 @@ header {
         color: $color-primary;
         font-weight: bold;
     }
+
+    a.nav-back,
+    a.nav-back:link {
+        color: #00000080;
+        font-size: 1.3rem;
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    a.nav-back:hover {
+        color: $color-primary;
+        text-decoration: none;
+    }
 }

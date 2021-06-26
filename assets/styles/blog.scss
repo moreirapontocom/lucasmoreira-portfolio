@@ -13,12 +13,18 @@
     padding-bottom: 50px;
     background-color: $bg-light;
 
+    &.list {
+        .blog-item {
+            margin-bottom: 70px;
+        }
+    }
+
     .blog-preview {
         width: 100%;
         height: 200px;
         border-radius: 5px;
         margin-bottom: 20px;
-        background-color: $bg-light;
+        background-color: darken($color: $bg-light, $amount: 10);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
