@@ -1,0 +1,43 @@
+@import "variables.scss";
+
+.navbar-light {
+    padding-top: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    .navbar-brand {
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-family: $font-serif;
+        color: $color-primary;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+
+    .navbar-nav {
+        font-family: $font-sans-serif;
+        font-size: 1.1rem;
+
+        .active > .nav-link,
+        .navbar-light .navbar-nav .nav-link.active,
+        .navbar-light .navbar-nav .nav-link.show,
+        .navbar-light .navbar-nav .show > .nav-link {
+            color: $color-primary;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+
+        .nav-link {
+            color: #00000090;
+
+            &:hover {
+                color: #000000;
+            }
+        }
+
+    }
+}
