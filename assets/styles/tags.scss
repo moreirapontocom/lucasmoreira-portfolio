@@ -7,7 +7,7 @@
     display: inline-block;
     width: auto;
     padding: 1px 4px;
-    font-size: .8rem;
+    font-size: .9rem;
     line-height: 1rem;
     margin: 0;
     margin-right: 4px;
@@ -16,5 +16,11 @@
 
     &:last-child {
         margin-right: 0;
+    }
+
+    &.lg {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        padding: 4px 8px;
     }
 }
